@@ -17,7 +17,7 @@ app.use(bodyparser.urlencoded({ extended: true }));
 seedDB();
 seedDB1();
 
-mongoose.connect("mongodb://localhost/womendb");
+mongoose.connect("process.env.CUSTOMCONNSTR_MyConnectionString");
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useFindAndModify", false);
 mongoose.set("useCreateIndex", true);
