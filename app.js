@@ -17,7 +17,7 @@ app.use(bodyparser.urlencoded({ extended: true }));
 seedDB();
 seedDB1();
 
-mongoose.connect("mongodb://0a1931f2-0ee0-4-231-b9ee:Zlp9s6sj18LygEa4OOXt0llXSXcz6s8f18jIFsYawizcNUbWcXdtDPSM0lZEMJrkkvnCkfZqFHTC07aECQeOcg==@0a1931f2-0ee0-4-231-b9ee.documents.azure.com:10255/?ssl=true
+mongoose.connect("mongodb://0a1931f2-0ee0-4-231-b9ee:Zlp9s6sj18LygEa4OOXt0llXSXcz6s8f18jIFsYawizcNUbWcXdtDPSM0lZEMJrkkvnCkfZqFHTC07aECQeOcg==@0a1931f2-0ee0-4-231-b9ee.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
 ");
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useFindAndModify", false);
