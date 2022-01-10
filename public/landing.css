@@ -1,0 +1,60 @@
+.main {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex: wrap;
+  flex-direction: column; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.helpsomeone {
+  background: url("./images/HelpSomeone.svg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  border-right: 2px solid #f4f4f4;
+  width: 50%;
+}
+
+.gethelp {
+  background: url("./images/GetHelp.svg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 50%;
+}
+
+.main-columns {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.main-columns button {
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 2rem;
+  position: relative;
+  top: 15vh;
+  color: black;
+  border: 5px solid #3d33e8;
+}
+
+.main-columns button a {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  div div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  }
+}
